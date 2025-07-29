@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(sheet
 		(at 114.3 63.5)
-		(size 16.51 35.56)
+		(size 16.51 49.53)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -31,12 +31,212 @@
 			)
 		)
 		(property "Sheetfile" "AT32u4.kicad_sch"
-			(at 114.3 99.6446 0)
+			(at 114.3 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 114.3 109.22 180)
+			(uuid "0cf7c07e-ce2f-4e07-9f32-eee274bd5efd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JoyXB" input
+			(at 130.81 72.39 0)
+			(uuid "ca3550ae-daa8-48eb-b540-b34ef386b394")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CK" input
+			(at 130.81 105.41 0)
+			(uuid "33383295-8dbc-4a64-990d-98d873106106")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW4" input
+			(at 130.81 93.98 0)
+			(uuid "a39f51b4-220c-4976-b323-bf43f25b956b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JoyYA" input
+			(at 130.81 69.85 0)
+			(uuid "1dd34351-3c18-4b02-811e-6f191cebb719")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW2" input
+			(at 130.81 88.9 0)
+			(uuid "0c2fd1ec-dd78-40c9-b922-e5b9f4fb027c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW3" input
+			(at 130.81 91.44 0)
+			(uuid "461aa91c-0056-4018-a2c4-51fac29bd021")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MISO" input
+			(at 114.3 74.93 180)
+			(uuid "0a6efea1-b19f-454c-91e4-f21e996c9f67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JoyXA" input
+			(at 130.81 67.31 0)
+			(uuid "d52f2be0-270d-4093-99a3-b0939fedffb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D+" input
+			(at 114.3 87.63 180)
+			(uuid "ba55a805-be04-4176-be56-7d0b05aa467c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 114.3 106.68 180)
+			(uuid "83260826-02ee-4f8a-ac74-8c974e9e414d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CE" input
+			(at 114.3 67.31 180)
+			(uuid "e56ccce4-6dcd-4a43-ab3f-dc8499a4ab0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D-" input
+			(at 114.3 90.17 180)
+			(uuid "b5df72d1-8193-438e-a238-71bdeac49024")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JoyYB" input
+			(at 130.81 74.93 0)
+			(uuid "e0f100a7-909c-4776-b924-361a34487f0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCK" input
+			(at 114.3 72.39 180)
+			(uuid "3fcceb0e-1d48-43c6-8f63-412d012433da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DT" input
+			(at 130.81 107.95 0)
+			(uuid "2992977e-8eae-427e-a8a2-6e5db6c811df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{CSN}" input
+			(at 114.3 69.85 180)
+			(uuid "517f803d-adb7-48b2-9e45-26e01a619cc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" input
+			(at 114.3 77.47 180)
+			(uuid "303037d1-456d-4305-b7f6-c9f0a0fea7ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN" input
+			(at 130.81 110.49 0)
+			(uuid "eff8cbed-4e66-42c9-8207-e2a5108ec6d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW1" input
+			(at 130.81 86.36 0)
+			(uuid "0f488585-7ade-4ddf-93e5-2a2dd3c2cccf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
