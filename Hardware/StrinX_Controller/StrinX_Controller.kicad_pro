@@ -419,6 +419,10 @@
     [
       "7fa7defb-07c2-4a3e-a124-ef53c11d77e5",
       "NRF24L01"
+    ],
+    [
+      "096688d9-d10c-46a8-add9-a537cdfbf42d",
+      "USB_C"
     ]
   ],
   "text_variables": {}
