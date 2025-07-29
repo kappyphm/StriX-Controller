@@ -415,6 +415,10 @@
     [
       "108dcd71-5b76-4a3d-a22d-e690a9401ff3",
       "AT32u4"
+    ],
+    [
+      "096688d9-d10c-46a8-add9-a537cdfbf42d",
+      "USB_C"
     ]
   ],
   "text_variables": {}
