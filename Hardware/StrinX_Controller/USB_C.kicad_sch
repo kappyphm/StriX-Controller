@@ -1566,7 +1566,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "094489ab-6f36-46f2-ba0b-288709eb6be3")
-		(property "Reference" "#FLG"
+		(property "Reference" "#FLG?"
 			(at 86.36 75.565 0)
 			(effects
 				(font
@@ -1618,6 +1618,10 @@
 			(project ""
 				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080"
 					(reference "#FLG01")
+					(unit 1)
+				)
+				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080/096688d9-d10c-46a8-add9-a537cdfbf42d"
+					(reference "#FLG?")
 					(unit 1)
 				)
 			)
@@ -1683,10 +1687,6 @@
 		)
 		(instances
 			(project "StrinX_Controller"
-				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080"
-					(reference "R3")
-					(unit 1)
-				)
 				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080/096688d9-d10c-46a8-add9-a537cdfbf42d"
 					(reference "R6")
 					(unit 1)
@@ -1704,7 +1704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47008f9a-d39a-4784-95cc-2061e4c07877")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR?"
 			(at 93.98 83.82 0)
 			(effects
 				(font
@@ -1758,6 +1758,10 @@
 					(reference "#PWR02")
 					(unit 1)
 				)
+				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080/096688d9-d10c-46a8-add9-a537cdfbf42d"
+					(reference "#PWR?")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1770,7 +1774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ec8e419-3ffc-418f-9fe0-8b4d7b230a44")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR?"
 			(at 58.42 120.65 0)
 			(effects
 				(font
@@ -1821,6 +1825,10 @@
 			(project ""
 				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080"
 					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080/096688d9-d10c-46a8-add9-a537cdfbf42d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1886,10 +1894,6 @@
 		)
 		(instances
 			(project "StrinX_Controller"
-				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080"
-					(reference "R2")
-					(unit 1)
-				)
 				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080/096688d9-d10c-46a8-add9-a537cdfbf42d"
 					(reference "R4")
 					(unit 1)
@@ -2146,10 +2150,6 @@
 		)
 		(instances
 			(project "StrinX_Controller"
-				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080"
-					(reference "R4")
-					(unit 1)
-				)
 				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080/096688d9-d10c-46a8-add9-a537cdfbf42d"
 					(reference "R7")
 					(unit 1)
@@ -2238,7 +2238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f17dac43-bbe0-4618-afe3-e098e2b979af")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR?"
 			(at 92.71 81.28 0)
 			(effects
 				(font
@@ -2289,6 +2289,10 @@
 			(project ""
 				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080"
 					(reference "#PWR01")
+					(unit 1)
+				)
+				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080/096688d9-d10c-46a8-add9-a537cdfbf42d"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)

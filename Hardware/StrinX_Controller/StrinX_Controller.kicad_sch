@@ -7,56 +7,6 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 101.6 67.31) (xy 114.3 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f76fa4f-e96f-4425-8ac4-c0d01fb79160")
-	)
-	(wire
-		(pts
-			(xy 101.6 69.85) (xy 114.3 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e854d4c-13ce-43d1-a04a-4398ebed5d16")
-	)
-	(wire
-		(pts
-			(xy 101.6 72.39) (xy 114.3 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c093358f-3997-42be-a5bb-604bc413974b")
-	)
-	(wire
-		(pts
-			(xy 101.6 77.47) (xy 114.3 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d10c7230-af8f-451c-b77f-70c80670156c")
-	)
-	(wire
-		(pts
-			(xy 101.6 74.93) (xy 114.3 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f13a4056-e006-45a4-82fb-6b7bf1335725")
-	)
-	(wire
-		(pts
 			(xy 127 93.98) (xy 143.51 93.98)
 		)
 		(stroke
@@ -67,6 +17,26 @@
 	)
 	(wire
 		(pts
+			(xy 127 73.66) (xy 143.51 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f76fa4f-e96f-4425-8ac4-c0d01fb79160")
+	)
+	(wire
+		(pts
+			(xy 127 76.2) (xy 143.51 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e854d4c-13ce-43d1-a04a-4398ebed5d16")
+	)
+	(wire
+		(pts
 			(xy 127 96.52) (xy 143.51 96.52)
 		)
 		(stroke
@@ -74,6 +44,36 @@
 			(type default)
 		)
 		(uuid "b9b94225-ca48-4a45-9f3a-57b207f5bd15")
+	)
+	(wire
+		(pts
+			(xy 127 78.74) (xy 143.51 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c093358f-3997-42be-a5bb-604bc413974b")
+	)
+	(wire
+		(pts
+			(xy 127 83.82) (xy 143.51 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10c7230-af8f-451c-b77f-70c80670156c")
+	)
+	(wire
+		(pts
+			(xy 127 81.28) (xy 143.51 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f13a4056-e006-45a4-82fb-6b7bf1335725")
 	)
 	(sheet
 		(at 114.3 91.44)
@@ -381,7 +381,7 @@
 		)
 	)
 	(sheet
-		(at 88.9 63.5)
+		(at 114.3 69.85)
 		(size 12.7 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -397,7 +397,7 @@
 		)
 		(uuid "7fa7defb-07c2-4a3e-a124-ef53c11d77e5")
 		(property "Sheetname" "NRF24L01"
-			(at 88.9 62.7884 0)
+			(at 114.3 69.1384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -406,7 +406,7 @@
 			)
 		)
 		(property "Sheetfile" "NRF24L01.kicad_sch"
-			(at 88.9 80.5946 0)
+			(at 114.3 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -416,7 +416,7 @@
 			)
 		)
 		(pin "MISO" input
-			(at 101.6 74.93 0)
+			(at 127 81.28 0)
 			(uuid "8bad77a5-23ee-4ba5-94e7-e3228a7d5e94")
 			(effects
 				(font
@@ -426,7 +426,7 @@
 			)
 		)
 		(pin "MOSI" input
-			(at 101.6 77.47 0)
+			(at 127 83.82 0)
 			(uuid "4b142455-072d-4094-ac89-5585efbfe728")
 			(effects
 				(font
@@ -436,7 +436,7 @@
 			)
 		)
 		(pin "SCK" input
-			(at 101.6 72.39 0)
+			(at 127 78.74 0)
 			(uuid "98052800-582f-488e-81be-e97150121df4")
 			(effects
 				(font
@@ -446,7 +446,7 @@
 			)
 		)
 		(pin "~{CSN}" input
-			(at 101.6 69.85 0)
+			(at 127 76.2 0)
 			(uuid "d4970d57-6e47-46a9-bb1f-c248e1c0caf5")
 			(effects
 				(font
@@ -456,7 +456,7 @@
 			)
 		)
 		(pin "CE" input
-			(at 101.6 67.31 0)
+			(at 127 73.66 0)
 			(uuid "ace3e3da-9960-4130-b659-69ee094ef2f5")
 			(effects
 				(font
