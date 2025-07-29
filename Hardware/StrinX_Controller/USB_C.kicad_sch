@@ -1335,6 +1335,12 @@
 		(uuid "0d3fd2e6-4c99-4f11-bc63-7b00e7b654c1")
 	)
 	(junction
+		(at 57.15 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1497bc14-7bb2-4ecc-bc42-c93ffc20207c")
+	)
+	(junction
 		(at 86.36 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1361,7 +1367,7 @@
 		(uuid "b16cb4e1-022e-42cc-b4a7-32370e9b0415")
 	)
 	(no_connect
-		(at 50.8 114.3)
+		(at 49.53 115.57)
 		(uuid "edbaf12e-79a5-4a14-b851-cd5fa4468430")
 	)
 	(wire
@@ -1476,6 +1482,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 116.84) (xy 57.15 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7d59882-6bca-495e-b180-6ed24c2f76c5")
+	)
+	(wire
+		(pts
 			(xy 72.39 95.25) (xy 72.39 96.52)
 		)
 		(stroke
@@ -1566,7 +1582,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "094489ab-6f36-46f2-ba0b-288709eb6be3")
-		(property "Reference" "#FLG?"
+		(property "Reference" "#FLG01"
 			(at 86.36 75.565 0)
 			(effects
 				(font
@@ -1617,11 +1633,11 @@
 		(instances
 			(project ""
 				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080"
-					(reference "#FLG01")
+					(reference "#FLG?")
 					(unit 1)
 				)
 				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080/096688d9-d10c-46a8-add9-a537cdfbf42d"
-					(reference "#FLG?")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -1652,7 +1668,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 81.28 93.218 90)
 			(effects
 				(font
@@ -1704,7 +1720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47008f9a-d39a-4784-95cc-2061e4c07877")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR021"
 			(at 93.98 83.82 0)
 			(effects
 				(font
@@ -1755,11 +1771,11 @@
 		(instances
 			(project ""
 				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080"
-					(reference "#PWR02")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080/096688d9-d10c-46a8-add9-a537cdfbf42d"
-					(reference "#PWR?")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -1767,15 +1783,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 114.3 0)
+		(at 57.15 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4ec8e419-3ffc-418f-9fe0-8b4d7b230a44")
-		(property "Reference" "#PWR?"
-			(at 58.42 120.65 0)
+		(property "Reference" "#PWR022"
+			(at 57.15 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1784,7 +1800,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.452 114.808 0)
+			(at 59.182 117.348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1792,7 +1808,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 114.3 0)
+			(at 57.15 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1801,7 +1817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 114.3 0)
+			(at 57.15 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1810,7 +1826,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 114.3 0)
+			(at 57.15 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1824,11 +1840,11 @@
 		(instances
 			(project ""
 				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080"
-					(reference "#PWR03")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080/096688d9-d10c-46a8-add9-a537cdfbf42d"
-					(reference "#PWR?")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -1859,7 +1875,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 81.28 84.328 90)
 			(effects
 				(font
@@ -1902,6 +1918,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 57.15 115.57 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73cb24b2-ecc6-4a35-880e-b328a843d0b7")
+		(property "Reference" "#FLG02"
+			(at 55.245 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 59.182 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 57.15 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fd929ef-4a47-4d66-b241-02087764eddf")
+		)
+		(instances
+			(project "StrinX_Controller"
+				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080/096688d9-d10c-46a8-add9-a537cdfbf42d"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 57.15 92.71 0)
 		(unit 1)
@@ -1927,7 +2010,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 60.96 92.71 0)
 			(effects
 				(font
@@ -2008,7 +2091,7 @@
 		(instances
 			(project ""
 				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080"
-					(reference "J1")
+					(reference "J?")
 					(unit 1)
 				)
 				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080/096688d9-d10c-46a8-add9-a537cdfbf42d"
@@ -2080,7 +2163,7 @@
 		(instances
 			(project ""
 				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080"
-					(reference "D1")
+					(reference "D?")
 					(unit 1)
 				)
 				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080/096688d9-d10c-46a8-add9-a537cdfbf42d"
@@ -2115,7 +2198,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 81.28 98.298 90)
 			(effects
 				(font
@@ -2182,7 +2265,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 81.28 86.868 90)
 			(effects
 				(font
@@ -2218,7 +2301,7 @@
 		(instances
 			(project ""
 				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080"
-					(reference "R1")
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080/096688d9-d10c-46a8-add9-a537cdfbf42d"
@@ -2238,7 +2321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f17dac43-bbe0-4618-afe3-e098e2b979af")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR020"
 			(at 92.71 81.28 0)
 			(effects
 				(font
@@ -2288,11 +2371,11 @@
 		(instances
 			(project ""
 				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080"
-					(reference "#PWR01")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080/096688d9-d10c-46a8-add9-a537cdfbf42d"
-					(reference "#PWR?")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
