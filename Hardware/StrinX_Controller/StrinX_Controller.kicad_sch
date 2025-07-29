@@ -1,5 +1,56 @@
-(kicad_sch (version 20250114) (generator "eeschema") (generator_version "9.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "60efaa1b-44bb-4814-90d0-8b9990f45080")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 114.3 63.5)
+		(size 16.51 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "108dcd71-5b76-4a3d-a22d-e690a9401ff3")
+		(property "Sheetname" "AT32u4"
+			(at 114.3 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AT32u4.kicad_sch"
+			(at 114.3 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "StrinX_Controller"
+				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
