@@ -415,6 +415,10 @@
     [
       "108dcd71-5b76-4a3d-a22d-e690a9401ff3",
       "AT32u4"
+    ],
+    [
+      "7fa7defb-07c2-4a3e-a124-ef53c11d77e5",
+      "NRF24L01"
     ]
   ],
   "text_variables": {}
