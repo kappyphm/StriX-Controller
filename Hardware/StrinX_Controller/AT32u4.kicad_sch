@@ -2138,6 +2138,12 @@
 		)
 	)
 	(junction
+		(at 76.2 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01e5a454-53c4-4eb1-b829-669e45d4576e")
+	)
+	(junction
 		(at 50.8 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2148,6 +2154,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0aa92709-ebb9-480d-ac6d-c1771cf3c25b")
+	)
+	(junction
+		(at 88.9 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26e28725-b871-40c5-913c-7721316820da")
 	)
 	(junction
 		(at 193.04 38.1)
@@ -2174,6 +2186,18 @@
 		(uuid "651ca7fd-7464-4c5c-9a64-3e2ba47a94b8")
 	)
 	(junction
+		(at 101.6 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67ce2226-fd4c-483d-87ef-e3dfe330761d")
+	)
+	(junction
+		(at 88.9 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "767c19ab-ed52-45e6-ae2c-a971accfef6d")
+	)
+	(junction
 		(at 50.8 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2184,6 +2208,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98d0993c-cdf4-4f08-8de8-c7582a34572c")
+	)
+	(junction
+		(at 76.2 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a4b4aa7-b521-448a-a2a8-8f1186fc0933")
 	)
 	(junction
 		(at 38.1 114.3)
@@ -2208,6 +2238,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c63863b4-d80c-47b1-b46b-ca36b6a33036")
+	)
+	(junction
+		(at 101.6 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6d6b814-27a7-4b29-8a22-a5292ca317ad")
 	)
 	(junction
 		(at 50.8 82.55)
@@ -2411,6 +2447,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 33.02) (xy 101.6 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78093fc1-ee9e-4dbe-84f6-6134f74a8829")
+	)
+	(wire
+		(pts
 			(xy 49.53 69.85) (xy 50.8 69.85)
 		)
 		(stroke
@@ -2428,6 +2474,16 @@
 			(type default)
 		)
 		(uuid "86ae3988-a7be-4201-933d-568a240bd41d")
+	)
+	(wire
+		(pts
+			(xy 88.9 25.4) (xy 101.6 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8afd993c-8f0a-4905-91ae-705e2b6235f5")
 	)
 	(wire
 		(pts
@@ -2498,6 +2554,36 @@
 			(type default)
 		)
 		(uuid "a8e68cd0-49d2-4660-96e1-87cce77736eb")
+	)
+	(wire
+		(pts
+			(xy 76.2 25.4) (xy 88.9 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9edf3e5-30a6-4878-b0a4-89168a63c174")
+	)
+	(wire
+		(pts
+			(xy 101.6 33.02) (xy 114.3 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad14f7d9-7e73-4921-a165-33e5d57050af")
+	)
+	(wire
+		(pts
+			(xy 76.2 33.02) (xy 88.9 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1aa286a-409a-4bde-813f-0ef0b885e87d")
 	)
 	(wire
 		(pts
@@ -2598,6 +2684,16 @@
 			(type default)
 		)
 		(uuid "e1910a2f-9ac9-4aa3-9276-f15bc4f89130")
+	)
+	(wire
+		(pts
+			(xy 101.6 25.4) (xy 114.3 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a84610-20f4-4fef-a014-f59b5d170d59")
 	)
 	(wire
 		(pts
@@ -4678,6 +4774,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 101.6 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be2d17aa-b292-4ef8-8e6b-db531073671a")
+		(property "Reference" "C14"
+			(at 105.41 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 105.41 30.4799 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 102.5652 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 101.6 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb901444-a9c8-4e93-863d-b6ec996fe45e")
+		)
+		(pin "1"
+			(uuid "5fda999c-b4fc-42f5-9983-4caba00c797b")
+		)
+		(instances
+			(project "StrinX_Controller"
+				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080/108dcd71-5b76-4a3d-a22d-e690a9401ff3"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 114.3 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4b2d215-121f-432f-8037-0b51c4cf5a85")
+		(property "Reference" "C15"
+			(at 118.11 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 118.11 30.4799 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 115.2652 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 114.3 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "30e69d46-d520-45c1-8ada-067e5bb7cec0")
+		)
+		(pin "1"
+			(uuid "b8253aaf-8812-4cd1-b073-2158a775b7d7")
+		)
+		(instances
+			(project "StrinX_Controller"
+				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080/108dcd71-5b76-4a3d-a22d-e690a9401ff3"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 44.45 143.51 0)
 		(unit 1)
@@ -4886,6 +5122,76 @@
 				)
 				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080/108dcd71-5b76-4a3d-a22d-e690a9401ff3"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 88.9 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d174bb54-6d6a-4b1a-b762-fca246543a6e")
+		(property "Reference" "C13"
+			(at 92.71 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 92.71 30.4799 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 89.8652 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 88.9 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "21166a78-a9f9-44e6-b52c-d08ab8e6ff79")
+		)
+		(pin "1"
+			(uuid "f9444bf6-f922-476f-a837-c58a878dd170")
+		)
+		(instances
+			(project "StrinX_Controller"
+				(path "/60efaa1b-44bb-4814-90d0-8b9990f45080/108dcd71-5b76-4a3d-a22d-e690a9401ff3"
+					(reference "C13")
 					(unit 1)
 				)
 			)
