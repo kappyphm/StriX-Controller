@@ -7969,7 +7969,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 53 "unconnected-(U1-PE6-Pad1)")
 			(pinfunction "PE6")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "4928de76-9d2a-48ca-ab8b-8a6e62b51631")
 		)
 		(pad "2" smd rect
@@ -8068,7 +8068,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 54 "unconnected-(U1-PB7-Pad12)")
 			(pinfunction "PB7")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "3e78208c-cce1-4cc1-a785-ec1573f3986f")
 		)
 		(pad "13" smd rect
@@ -8185,7 +8185,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 52 "unconnected-(U1-PD4-Pad25)")
 			(pinfunction "PD4")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "fb5600b5-e0e1-4fb4-9f42-6759d3acfff7")
 		)
 		(pad "26" smd rect
@@ -8212,7 +8212,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 49 "unconnected-(U1-PB4-Pad28)")
 			(pinfunction "PB4")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "23e85fc6-b22e-4a98-89f7-d9f03e4cee34")
 		)
 		(pad "29" smd rect
@@ -8284,7 +8284,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 51 "unconnected-(U1-PF7-Pad36)")
 			(pinfunction "PF7")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "e0c9d538-e9c2-4d75-b6e6-90c640abccd9")
 		)
 		(pad "37" smd rect
@@ -8293,7 +8293,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 50 "unconnected-(U1-PF6-Pad37)")
 			(pinfunction "PF6")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "b4cefe06-41a5-406e-a930-b2477a934401")
 		)
 		(pad "38" smd rect
