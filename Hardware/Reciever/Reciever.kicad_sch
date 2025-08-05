@@ -19636,7 +19636,25 @@
 			"ZQBPAE4AUgBiAFYAegBKADgANQBlAGEAUgBPAFAAdABaAHIAYgBIAHAAeAA4AFAAagBnADIAUQBz"
 			"ADIAdABpAHAAbAB4AHMAaQBSAG0ASQBGAFkAYgByAEMAQwA4AEUANgBHAGwAUwBSAEoAawB1AEwA"
 			"MQBmAHUAUQBBAEEAQwBBAEEAUwBVAFIAQgBWAEMAVABKAHQAUwBnAEYAVwBFAG0AUwBKAEUAbQBT"
-			"AC8ASwBOAGMASABzAEkAeQBRAG8AQQBoAA=="
+			"AC8ASwBOAGMASABzAEkAeQBRAG8AQQBoAEcAMQBjADMAOQBEAHIAdgBwAHAAcwBxAGgAdwAxAEYA"
+			"cgB6AHEAYgBKAHAAdABmAGYAaQBCAFUAMQBWAFgAdABNAFcANwBqAGsATQBFAFIARQBYAFkAZQBn"
+			"AGsAQgBFAHMAUQAyAEYAUQBGAGwAVgAzAGMAaABSAFgAVABzAFAANgBtAHIAbwBIAGYAWQBiAGcA"
+			"TgBJAGEAZwBBAFQAQgBPAGkAcwBDAHUAYgBJADAAMwBOAFIAUQAvAGUAcQBpAGYAMwBSAG8ASwA4"
+			"AEsAdwBzAHIAcABxADkAMQBHADcAVABUAHYANQBQACsAcQBHAEQARQBhAGYAUgBnAGgAQQBCAFoA"
+			"YQBzAGsASwBKAHoAYwArAHYAYwB0ADkALwBiAC8ATwA3AGIAagBhAFgAbABxAHoAZAB0AG0AZgAz"
+			"AHcASQAwAGMATgBiAEIAawBKAEIAMgBVAEEAbwBIAGUAdgBmAGMAOAAvAHYAKwBVAGIAQgB6ADUA"
+			"MgAzADEALwBmAGYAdQBnAFIAWQBRADIARgBvAGsAdgByADcAMQA5AHcALwBxADYASABUAGsARwBm"
+			"AEoAcABTAFYAUQByAG8AawBwAFUAUABiAGYAbwBxAGoAbQBJAGMAdABZADAAeQBrADQAMQBCAEoA"
+			"egBuADUAMQBVAEgAbABLAEMAQwBDAG4ASgBDAGgARgBGAG4ARgBuAGQAWgBtAHUATABEAE0ANgBR"
+			"AGkAWgBVAE8AUgAzAEgATgBnAEoAWgBKAFUASQBEAHkAbgBWADEAZgByAEwAbwAzAFQAMwBIAGoA"
+			"TwA1AGQAVQA2AEoAZwBCAFUAaQBJADAATQBJADYANgA4AGgAUQBpAFIAVAA3AGoAQgA3AHcAKwBE"
+			"AE4AUAByAFYALwA5AFMAZgArAEcARQBTAG0ARgB6AGUAcwAyAHYAUAAvAG0AUABBAHIATABZAHEA"
+			"UgByAHkALwBIAFIAdwBuAGsAbQA2AHEAdwBxAEwAWQA4AFAATwBpAEMAawBEAEkAQQArAEQAVABW"
+			"AFQAVAB6AG4ANQBtAFIAZABmAGUALwBlAHQAZAArAGQAbQByAFIATABTAHgAZABIAG8AMABTAE8A"
+			"bQBuAC8AdQA5AC8AbgAxAFMAQwBoAHAAawA0AEYASQBBAGgASABNAGcAeAArAGQAWgBIAEgAaQBL"
+			"AEsASwBLAEkALwB5AGsAVQBDAGEAdwBpAGkAaQBpAGkAaQBDACsARwB6AC8AKwBpAGcAZwBuADYA"
+			"NgBOAEcAagByADcAdgB1AHUAbgBQAFAAUABiAGUANQB1AGYAbgBPAE8AKwA5AHMAYQBXAGsASgB3"
+			"ADMARABMAGwAaQAzAFAAUABQAFAATQA5AA=="
 		)
 	)
 	(label "D1"
@@ -26605,6 +26623,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 361.95 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ebaa719-e25d-4a45-a037-48ce6fe9d5a2")
+		(property "Reference" "#PWR027"
+			(at 361.95 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 361.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 361.95 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72634c64-80e5-4531-b1cf-12e8860deb6a")
+		)
+		(instances
+			(project "Reciever"
+				(path "/92243f9b-a032-4350-b0ea-04fa935ca57b"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 284.48 31.75 0)
 		(unit 1)
@@ -29789,72 +29873,6 @@
 			(project ""
 				(path "/92243f9b-a032-4350-b0ea-04fa935ca57b"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 361.95 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3e47719-b32a-42f3-9de9-80b6f17b3e43")
-		(property "Reference" "#PWR020"
-			(at 361.95 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 361.95 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 361.95 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 361.95 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 361.95 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e93b61f1-a8e3-48dd-8c3a-ad0f2c0fc9ea")
-		)
-		(instances
-			(project "Reciever"
-				(path "/92243f9b-a032-4350-b0ea-04fa935ca57b"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
